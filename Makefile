@@ -6,7 +6,7 @@
 #    By: hcoutinh <hcoutinh@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/11 13:16:55 by hcoutinh          #+#    #+#              #
-#    Updated: 2022/08/11 16:57:49 by hcoutinh         ###   ########.fr        #
+#    Updated: 2022/08/12 18:24:01 by hcoutinh         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ RM		= /bin/rm -f
 
 NAME	= libftprintf.a
 
-SRCS	= printf.c
+SRCS	= printf.c utils.c
 
 OBJS	= $(SRCS:.c=.o)
 
